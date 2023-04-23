@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bank-crawler"
+version = "0.1.0"
+description = "銀行的爬蟲"
+authors = ["yang-lin94 <casongg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bank_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+requests = "^2.28.2"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
